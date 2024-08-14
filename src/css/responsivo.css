@@ -1,10 +1,14 @@
-@media (max-width: 1280px) {
+@media (max-width: 1559px) {
     body {
         padding: 0 40px;
     }
+
+    .imagem{
+        height: 100vh;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1180px) {
     .informacoes.ativa {
         display: flex;
         flex-direction: column;
@@ -15,9 +19,13 @@
         width: 60%;
         text-align: center;
     }
-}
 
-@media (max-width: 425px) {
+    .imagem{
+        height: 100vh;
+    }
+    }
+
+@media (max-width: 1040px) {
     body {
         padding: 40px;
     }
